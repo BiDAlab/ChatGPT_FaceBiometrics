@@ -1,3 +1,7 @@
+<a href="http://atvs.ii.uam.es/atvs/">
+    <img src="media/BiDA-logo.png" alt="BiDA Lab" title="Bida Lab" align="right" height="150" width="350" target="_blank"/>
+</a>
+
 # How Good is ChatGPT at Face Biometrics? A First Look into Recognition, Soft Biometrics, and Explainability
 
 ## Table of content
