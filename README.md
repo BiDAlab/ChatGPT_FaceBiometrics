@@ -16,7 +16,7 @@
 
 Ivan DeAndres-Tame, Ruben Tolosana, Ruben Vera-Rodriguez, Aythami Morales, Julian Fierrez, Javier Ortega-Garcia, **"How Good is ChatGPT at Face Biometrics? A First Look into Recognition, Soft Biometrics, and Explainability"**, *arXiv preprint arXiv:2401.13641*, doi: [10.48550/arXiv.2401.13641](https://doi.org/10.48550/arXiv.2401.13641), 2023.
 
-<img src="media/G_abstract.jpg" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="90%" target="_blank"/>
+<img src="media/G_abstract.jpg" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="100%" target="_blank"/>
 
 ## <a name="exp_prot">Experimental Protocol</a>
 We provide the experimental protocol used for this research in the *comparisons* folder. It consists of 8 different databases used for face recognition, explainability, and soft-biometrics estimation. For each database, 1000 meaningful comparisons have been selected and evaluated.
@@ -39,6 +39,7 @@ Finally, for the estimation of soft biometrics, we use the **[MAAD-Face](https:/
 ## <a name="exp_prot">Scripts Usage</a>
 We provide two different scripts to replicate the experiments we performed in our work.
 * *combine_img.py* is used to combine the images in the two different image configurations we propose: *1x1 comparisons* and *4x3 comparisons*.
+<img src="media/1_1_mat.jpg" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="100%" target="_blank"/>
 ```
 python combine_img.py --df_name comparisons/file/.csv 
                       --append_path append/path/for/the/images/in/comparison_file 
@@ -47,10 +48,11 @@ python combine_img.py --df_name comparisons/file/.csv
 ```
 * *eval_ChatGPR_DDBB.ipynb* is the jupyter notebook used to evaluate the images through ChatGPT. You need to set your OpenAI API Key and the path of the CSV generated used *combine_img.py*.
 
+<img src="media/Explainability_2.jpg" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="100%" target="_blank"/>
 ## <a name="references">References</a>
 
 For further information on the database and on different applications where it has been used, we refer the reader to:
 
 Ivan DeAndres-Tame, Ruben Tolosana, Ruben Vera-Rodriguez, Aythami Morales, Julian Fierrez, Javier Ortega-Garcia, **"How Good is ChatGPT at Face Biometrics? A First Look into Recognition, Soft Biometrics, and Explainability"**, *arXiv preprint arXiv:2401.13641*, doi: [10.48550/arXiv.2401.13641](https://doi.org/10.48550/arXiv.2401.13641), 2023.
 
-Please remember to reference the above articles on any work made public, whatever the form, based directly or indirectly on any part of the article.
+Please remember to reference the above articles on any work made public, whatever the form, based directly or indirectly on any part of the our work.
