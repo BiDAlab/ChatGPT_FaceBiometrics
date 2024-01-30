@@ -38,7 +38,7 @@ Finally, for the estimation of soft biometrics, we use the **[MAAD-Face](https:/
 
 ## <a name="exp_prot">Scripts Usage</a>
 We provide two different scripts to replicate the experiments we performed in our work.
-* *combine_img.py* is used to combine the images in the two different image configurations we propose: *1x1 comparisons* and *4x3 comparisons*.
+* `combine_img.py` is used to combine the images in the two different image configurations we propose: *1x1 comparisons* and *4x3 comparisons*.
 <img src="media/1_1_mat.jpg" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="100%" target="_blank"/>
 
 ```
@@ -48,7 +48,7 @@ python combine_img.py --df_name comparisons/file/.csv
                       --path_save_matrix where/to/save/4x3images
 ```
 
-* *eval_ChatGPR_DDBB.ipynb* is the jupyter notebook used to evaluate the images through ChatGPT. You need to set your OpenAI API Key and the path of the CSV generated used *combine_img.py*.
+* `eval_ChatGPR_DDBB.ipynb` is the jupyter notebook used to evaluate the images through ChatGPT. You need to set your OpenAI API Key and the path of the CSV generated used `combine_img.py`.
 
 <img src="media/Explainability_2.jpg" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="100%" target="_blank"/>
 
