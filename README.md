@@ -51,6 +51,7 @@ For the soft-biometrics estimation we used a *custom model* to predict all the 4
 For the custom model we provide the implementation along with the [*weights*](https://dauam-my.sharepoint.com/:u:/g/personal/ivan_deandres_uam_es/EdJNi3HSxgBIuNd3U1Hxm5oBtMXnJTqVEW133DsulDpE1Q?e=cUgdru).
 
 ```python
+import torch
 import torch.nn as nn
 from torchvision import models
 
