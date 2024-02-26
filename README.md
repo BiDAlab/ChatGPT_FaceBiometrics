@@ -19,7 +19,7 @@
 
 Ivan DeAndres-Tame, Ruben Tolosana, Ruben Vera-Rodriguez, Aythami Morales, Julian Fierrez, Javier Ortega-Garcia, **"How Good is ChatGPT at Face Biometrics? A First Look into Recognition, Soft Biometrics, and Explainability"**, *arXiv preprint arXiv:2401.13641*, doi: [10.48550/arXiv.2401.13641](https://doi.org/10.48550/arXiv.2401.13641), 2024.
 
-<img src="media/G_abstract_3.jpg" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="100%" target="_blank"/>
+<img src="media/G_abstract_3.pdf" alt="Graphical Abstract" title="Graphical Abstract" align="center" width="100%" target="_blank"/>
 
 ## <a name="exp_prot">Experimental Protocol</a>
 We provide the experimental protocol used for this research in the *comparisons* folder. It consists of 8 different databases used for face recognition, explainability, and soft-biometrics estimation. For each database, 1000 meaningful comparisons have been selected and evaluated.
